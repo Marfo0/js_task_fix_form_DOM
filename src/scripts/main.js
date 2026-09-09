@@ -1,7 +1,6 @@
 'use strict';
 
-const form = document.querySelector('form');
-const inputs = form.querySelectorAll('input');
+const inputs = document.querySelectorAll('form input');
 
 inputs.forEach((input) => {
   const label = document.createElement('label');
